@@ -18,7 +18,7 @@ public class MyAuthenticationstepdef {
 		//Response resp = 
 		resp = RestAssured.given().auth().basic("username", "password").relaxedHTTPSValidation().
 					when().get("http://www.google.com");
-		
+		System.out.println("first step done");
 	}
 	
 	@Then("^user checks the status code$")
