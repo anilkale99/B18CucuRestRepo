@@ -24,6 +24,8 @@ import cucumber.api.junit.Cucumber;
 					"html:target/cucumber-htmlreport",
 					"json:target/cucumber-report6.json",
 					"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"
+					
+					
 			}
 		)
 		
